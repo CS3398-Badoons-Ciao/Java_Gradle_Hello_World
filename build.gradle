@@ -86,3 +86,5 @@ distSetup.dependsOn(build)
 dist.dependsOn(zipDist)
 dist.dependsOn(zipTest)
 
+//compileJava.options.fork = true
+//compileJava.options.forkOptions.executable = /usr/lib/jvm/java-8-openjdk-amd64/jre/bin
